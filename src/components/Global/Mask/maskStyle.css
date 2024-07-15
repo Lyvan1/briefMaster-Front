@@ -1,0 +1,28 @@
+.mask-container {
+    position: relative;
+    width: 100%;
+    height: auto; /* hauteur du masque */
+    overflow: hidden;
+    z-index: 2;
+    margin-top:10px;
+}
+
+
+.mask {
+    position: sticky;
+    top: 0;
+    height: 100px; /* Ajustez cette valeur selon vos besoins */
+    background: white;
+    z-index: 10;
+    pointer-events: none; /* Pour permettre de cliquer à travers le masque */
+}
+
+/* companiesList.css */
+.card-item {
+    transition: transform 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.card-item.hidden-under-mask {
+    z-index: -1;
+}

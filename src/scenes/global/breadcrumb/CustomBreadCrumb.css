@@ -1,0 +1,13 @@
+/* src/components/CustomBreadCrumb.css */
+.custom-breadcrumb .ant-breadcrumb-separator {
+    color: white; /* Change la couleur du séparateur en blanc */
+}
+
+.custom-breadcrumb .ant-breadcrumb-link,
+.custom-breadcrumb .ant-breadcrumb-link a {
+    color: white; /* Change la couleur des liens en blanc */
+}
+
+.custom-breadcrumb .anticon {
+    color: white; /* Change la couleur des icônes en blanc */
+}

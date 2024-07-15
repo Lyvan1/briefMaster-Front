@@ -1,0 +1,9 @@
+.sidebar-collapsed  {
+    /*margin-top: 50px !important;*/
+
+
+}
+
+.sidebar-expanded .ant-menu-item {
+    margin-top: 0; /* Réinitialisez cette valeur pour la position normale */
+}

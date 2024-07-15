@@ -1,0 +1,8 @@
+.custom-notification {
+    color: white !important; /* Changer la couleur du texte principal */
+}
+
+.custom-notification .ant-notification-notice-message,
+.custom-notification .ant-notification-notice-description {
+    color: white !important; /* Changer la couleur du texte du message et de la description */
+}

@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+:root {
+  --color1: #38ABF2;
+  --color2: #0D60FC;
+  --color3: #054BA6;
+  --color4: #FC970D;
+  --color5: #05B112;
+  --color6: #F20519;
+  --color7: #707070;
+  --color8: #E8F6FC;
+}
+
+
+html,
+body#root,
+.app,
+.content {
+  height: 100%;
+  width:100%;
+  font-family: 'Source Sans 3', sans serif;
+}
+
+

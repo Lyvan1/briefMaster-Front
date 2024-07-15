@@ -1,0 +1,16 @@
+.sticky-header {
+    position: sticky;
+    top: 40px;
+    width: 100%;
+    z-index: 2;
+}
+
+
+/* companiesList.css */
+.card-item {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.card-item.fade-out {
+    opacity: 0;
+}
